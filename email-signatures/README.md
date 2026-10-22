@@ -18,8 +18,8 @@ Base URL: `https://raw.githubusercontent.com/automationRWR/rwr-fy26-awards/main/
 Folder: `email-signatures/photos/`
 
 - One round 128 × 128 PNG per person on a white background.
-- Named by their JobAdder email address, all lowercase, e.g. `liamt@rwrgroup.net.au.png`.
-- The signatures load `photos/{Consultant.Email}.png`, so the file name must match the email exactly.
+- Named FirstName-LastName exactly as in JobAdder (same capitals and spaces), e.g. `Liam-Turner.png`.
+- The signatures load `photos/{Consultant.FirstName}-{Consultant.LastName}.png`. JobAdder turns {Consultant.Email} into a full link, so it can't be used in an image address.
 - Everyone using a photo signature needs a file here, or their signature shows a broken image.
 
 ## JobAdder signatures
